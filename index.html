@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maddy and Eric | Wedding</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+	<!-- W3.CSS -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<!-- Master Style Sheet -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Page Style Sheets -->
+	<link rel="stylesheet" href="cover-page.css">
+	<link rel="stylesheet" href="our-story.css">
+	<link rel="stylesheet" href="the-details.css">
+	<link rel="stylesheet" href="getting-there.css">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 				  
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Cormorant+Unicase:wght@300&family=Hina+Mincho&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+
+	<!-- Font-Awesome -->
+	<script src="https://kit.fontawesome.com/1400a4285f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Cover Page -->
+	<div id='cp' class='cp-top'>
+		<!-- Side Bar -->
+		<div class="w3-sidebar w3-animate-left w3-bar-block w3-card-4" style="width: 50%;display:none;z-index:5; background: #b3e6b3" id="mySidebar">
+  			<button onclick="w3_close()" class=" w3-bar-item w3-large w3-btn">Close &times;</button>
+  			<a href="#os" class="w3-bar-item w3-btn">Our Story</a>
+  			<a href="#td" class="w3-bar-item w3-btn">The Details</a>
+  			<a href="#gt" class="w3-bar-item w3-btn">Getting There</a>
+		</div>
+
+		<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+	
+		<div>
+  			<button class="w3-btn w3-xlarge" onclick="w3_open()" style='color: white;'>
+  				<i class="fas fa-bars"></i>
+  			</button>
+		</div>
+
+		<script>
+			function w3_open() {
+  				document.getElementById("mySidebar").style.display = "block";
+  				document.getElementById("myOverlay").style.display = "block";
+			}
+
+			function w3_close() {
+  				document.getElementById("mySidebar").style.display = "none";
+  				document.getElementById("myOverlay").style.display = "none";
+			}
+		</script>
+	</div>
+	<div class='cp-middle w3-display-container'>
+		<div class='w3-card-4 w3-round-xxlarge w3-display-middle cp-center-card'>
+			<p style="font-style: italic;">together with their families</p>
+			<h1>Madelynn & Eric</h1>
+			<p style="font-style: italic;">joyfully invite you to their <br> wedding celebration</p>
+			<h1 style='font-size: 1.25rem;'>June 18, 2022</h1>
+			<h2>St. Michael Catholic Church</h2>
+		</div>
+	</div>
+	<div class='cp-bottom'></div>
+
+	<!-- Our Story -->
+	<div id='os'class='os-top w3-display-container'>
+		<h1 class='w3-display-middle'>Our Story</h1>
+	</div>
+	<div class='os-middle w3-display-container'>
+		<img src="maddyanderic-apt.png" class="w3-card-4 w3-display-middle w3-circle w3-border" alt="Maddy and Eric lauging." style="height: 90%">
+	</div>
+	<div class='os-bottom'>
+		<p>The hook of the story goes here. It shouldn't be too long and should prompt the reader to continue below.</p>
+	</div>
+
+	<!-- The Story -->
+	<div style='height: 100vh; background: #b3e6b3'></div>
+
+	<!-- Picture Gallery -->
+	<div class='w3-container' style='padding: 0px;'>	
+		<div class='w3-third os-pic-pad'>
+			<div class='w3-card-4'>
+				<img src='images/IMG_0043.jpeg' style='width:100%'>
+			</div>
+		</div>
+		<div class='w3-third os-pic-pad'>
+			<div class='w3-card-4'>
+			<img src='images/IMG_0044.jpeg' style='width:100%'>
+			</div>
+		</div>
+		<div class='w3-third os-pic-pad'>
+			<div class='w3-card-4'>
+				<img src='images/IMG_0052.jpeg' style='width:100%'>
+			</div>
+		</div>
+	</div>
+	<div class='w3-container' style='padding: 0px;'>
+		<div class='w3-third os-pic-pad'>
+			<div class='w3-card-4'>
+				<img src='images/IMG_0048.jpeg' style='width:100%'>
+			</div>
+		</div>
+		<div class='w3-third os-pic-pad'>
+			<div class='w3-card-4'>
+				<img src='images/IMG_0045.jpeg' style='width:100%'>
+			</div>
+		</div>
+		<div class='w3-third os-pic-pad'>
+			<div class='w3-card-4'>
+				<img src='images/IMG_0074.jpeg' style='width:100%'>
+			</div>
+		</div>
+	</div>
+	<div class='w3-container' style='padding: 0px;'>
+		<div class='w3-half os-pic-pad'>
+			<div class='w3-card-4'>
+				<img src='images/IMG_0058.jpeg' style='width:100%'>
+			</div>
+		</div>
+		<div class='w3-half os-pic-pad'>
+			<div class='w3-card-4'>
+				<img src='images/IMG_0097.jpeg' style='width:100%'>
+			</div>
+		</div>
+	</div>
+	<div class='w3-container' style='padding: 0px;'>
+		<div class='w3-third os-pic-pad'>
+			<div class='w3-card-4'>
+				<img src='images/IMG_0085.jpeg' style='width:100%'>
+			</div>
+		</div>
+		<div class='w3-third os-pic-pad'>
+			<div class='w3-card-4'>
+				<img src='images/IMG_0098.jpeg' style='width:100%'>
+			</div>
+		</div>
+		<div class='w3-third os-pic-pad'>
+			<div class='w3-card-4'>
+				<img src='images/IMG_0107.jpeg' style='width:100%'>
+			</div>
+		</div>
+	</div>
+
+	<!-- The Detials -->
+	<div id='td' class='w3-display-container td-top'>
+		<h1 class='w3-display-middle'>The Details</h1>
+	</div>
+	<div class='w3-container' style='padding: 0%;'>
+		<div class='w3-half td-middle'>
+			<h3>When</h3>
+			<p>June 18th, 2022<br>12:00pm</p>
+		</div>
+		<div class='w3-half td-middle'>
+			<h3>Where</h3>
+			<p>St. Michael Catholic Church<br>310 S Wheaton Ave<br>Wheaton, IL 60187</p>
+		</div>
+	</div>
+	<div class='w3-display-container td-bottom'>
+		<a href='urlhere' class='w3-btn w3-padding w3-round-xxlarge w3-display-topmiddle' style='background: maroon;color: white;'>RSVP</a>
+	</div>
+
+	<!-- Getting There -->
+	<div id='gt' class='w3-display-container gt-top'>
+		<h1 class='w3-display-middle'>Getting There</h1>
+	</div>
+	<div class='w3-third gt-middle' style='padding: 2vw'>
+		<a href='https://goo.gl/maps/gMoyhEFvfPVtjfHL8'>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.4124496368436!2d-88.11330768442588!3d41.86247177922339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e545fdd72ec15%3A0x5596a7c5ea45c72f!2sSt.%20Michael%20Catholic%20Church!5e0!3m2!1sen!2sus!4v1638520998667!5m2!1sen!2sus" style="height: 100%; width: 100%; border: 0;" allowfullscreen="" loading="lazy"></iframe>
+		</a>
+	</div>
+	<div class='w3-third gt-bottom'>
+		<h3>Transportation</h3>
+		<p>Here is where details about transportation go. Keep it brief.</p>
+	</div>
+	<div class='w3-third gt-bottom'>
+		<h3>Accomodation</h3>
+		<p>Here is where detials about accomodations go. Keep it brief.</p>
+	</div>
+</body>
+</html>

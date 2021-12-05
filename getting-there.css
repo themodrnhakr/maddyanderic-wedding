@@ -1,0 +1,27 @@
+.gt-top {
+	height: 25vh;
+	background: #b3e6b3;
+}
+
+.gt-middle {
+	height: 37.5vh;
+	background: #b3e6b3;
+}
+.gt-bottom {
+	height: 37.5vh;
+	background: #b3e6b3;
+}
+
+@media screen and (min-width: 600px) {
+	.gt-top {
+		height: 33.3vh;
+	}
+
+	.gt-middle {
+		height: 66.6vh;
+	}
+
+	.gt-bottom {
+		height: 66.6vh;
+	}
+}

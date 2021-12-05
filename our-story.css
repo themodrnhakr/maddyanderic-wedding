@@ -1,0 +1,43 @@
+.os-top {
+	height: 25vh;
+	background: #b3e6b3;
+}
+
+.os-middle {
+	height: 35vh;
+	background: #b3e6b3;
+}
+
+.os-bottom {
+	height: 40vh;
+	background: #b3e6b3;
+	padding: 20%;
+}
+
+.os-pic-pad {
+	padding: 2%;
+}
+
+.os-img-height {
+	height: 33.3vh;
+	width: initial;
+}
+
+@media screen and (min-width: 600px) {
+	.os-top {
+		height: 33.3vh;
+	}
+
+	.os-middle {
+		height: 33.3vh;
+	}
+
+	.os-bottom {
+		height: 33.3vh;
+		padding: 2.5%;
+	}
+
+	.os-pic-pad {
+		padding: 1%;
+	}
+}

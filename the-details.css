@@ -1,0 +1,37 @@
+.td-top {
+	height: 25vh;
+	background: #cce6ff;
+}
+
+.td-middle {
+	height: 25vh;
+	background: #cce6ff;
+}
+
+.td-bottom {
+	height: 25vh;
+	background: #cce6ff;
+}
+
+@media screen and (min-width: 600px) {
+	.td-top {
+		height: 33.3vh;
+	}
+
+	.td-middle {
+		height: 45vh;
+	}
+
+	.td-bottom {
+		height: 21.7vh;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	.td-middle {
+		height: 30vh;
+	}
+	.td-bottom {
+		height: 36.7vh;
+	}
+}

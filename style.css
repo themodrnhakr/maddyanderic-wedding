@@ -1,0 +1,95 @@
+html {
+    /*
+   	background: url(background-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    */
+    background-image: url('background-image.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+  	width:100%;
+  	height:100%;
+    font-size: 16pt;
+    margin:0;
+  	height:100%;
+}
+
+body {
+	margin:0;
+  	height:100%;
+}
+
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5rem;
+    font-weight:normal;
+    text-align: center;
+    color: maroon;
+    line-height: 150%;
+}
+
+h2 {
+	font-family: 'Cormorant Unicase', serif;
+	font-size: .75rem;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 2px;
+	color: maroon;
+}
+
+h3 {
+	font-family: 'Cormorant Unicase', serif;
+	font-size: 1rem;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 2px;
+	color: maroon;
+}
+
+a {
+	font-family: 'Hina Mincho', serif;
+	font-size: .75rem;
+	font-weight: lighter;
+	text-align: center;
+	color: maroon;
+}
+
+button {
+	font-family: 'Hina Mincho', serif;
+	font-size: .75rem;
+	font-weight: lighter;
+	text-align: center;
+	color: maroon;
+}
+
+p {
+	font-family: 'Hina Mincho', serif;
+	font-size: .75rem;
+	font-weight: lighter;
+	text-align: center;
+	color: maroon;
+}
+
+.bg-container {
+	background-image: url('background-image.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+  	width:100%;
+  	height:100%;
+}
+
+@media screen and (min-width: 800px) {
+	html {
+		font-size: 32pt;
+	}
+
+	p {
+		font-size: .75rem
+	}
+}
